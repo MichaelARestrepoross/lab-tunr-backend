@@ -4,6 +4,9 @@ Let's make our own music playlist app!
 
 ![](https://media4.giphy.com/media/4T7zBzdeNEtjThYDWn/giphy.gif?cid=790b76114ee03ef7f860492a9083d77f86191a7bf340002c&rid=giphy.gif&ct=g)
 
+## Tunr Frontend Repo 
+[Tunr-Frontend-lab](https://github.com/MichaelARestrepoross/lab-tunr-frontend)
+
 ## Get Started
 
 - create a folder called `tunr-fullstack-lab`

@@ -1,4 +1,4 @@
-// queries/bookmarks.js
+
 const db = require('../db/dbConfig.js')
 
 const getAllSongs = async () => {
