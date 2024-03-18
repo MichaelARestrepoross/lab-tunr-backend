@@ -76,17 +76,6 @@ playlists.post("/", checkName, async (req, res) => {
   }
 });
 
-// Update an existing playlist
-playlists.put("/:id", checkName, async (req, res) => {
-  const { id } = req.params;
-  try {
-    const updatedPlaylist = await updatePlaylist(id, req.body);
-    res.status(200).json(updatedPlaylist);
-  } catch (error) {
-    console.error("Error updating playlist:", error);
-    res.status(400).json({ error: "Bad Request" });
-  }
-});
 
 // Delete a playlist by ID
 playlists.delete("/:id", async (req, res) => {
